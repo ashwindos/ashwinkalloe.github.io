@@ -63,7 +63,6 @@ app.controller('CompetionController', function($scope, $routeParams, Competition
         { "name": "Cyprus", "code": "CY" },
         { "name": "Czech Republic", "code": "CZ" },
         { "name": "Denmark", "code": "DK" },
-        { "name": "Djibouti", "code": "DJ" },
         { "name": "Dominica", "code": "DM" },
         { "name": "Dominican Republic", "code": "DO" },
         { "name": "Ecuador", "code": "EC" },
