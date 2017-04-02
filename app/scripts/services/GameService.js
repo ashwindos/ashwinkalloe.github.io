@@ -20,7 +20,7 @@ app.service('GameService', function() {
 
     }
 
-    var uid = (savedgames !== null) ? savedgames.length - 1 : 1;
+    var uid = (savedgames !== null) ? savedgames.length : 1;
 
 
     this.addgames = function(Newgames) {

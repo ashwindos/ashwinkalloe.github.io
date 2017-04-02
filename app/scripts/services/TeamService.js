@@ -27,7 +27,7 @@ app.service('TeamService', function() {
 
     }
 
-    var uid = (savedTeams !== null) ? savedTeams.length - 1 : 1;
+    var uid = (savedTeams !== null) ? savedTeams.length : 2;
 
 
     this.addTeams = function(NewTeams) {

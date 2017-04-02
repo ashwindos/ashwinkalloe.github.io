@@ -2,7 +2,11 @@ var app = angular.module('myApp', ['ngRoute']);
 
 app.config(function($routeProvider) {
     $routeProvider
+        .when('/home', {
+            templateUrl: 'views/home.html',
+            controller: 'HomeController'
 
+        })
         .when('/players', {
             templateUrl: 'views/players.html',
             controller: 'PlayerController'
@@ -76,5 +80,5 @@ app.config(function($routeProvider) {
             controller: 'GamesController'
         })
 
-    .otherwise({ redirectTo: '#/' });
+    .otherwise({ redirectTo: '#/home' });
 });

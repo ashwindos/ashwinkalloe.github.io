@@ -27,7 +27,7 @@ app.service('PlayerService', function() {
 
     }
 
-    var uid = (savedplayers !== null) ? savedplayers.length - 1 : 1;
+    var uid = (savedplayers !== null) ? savedplayers.length : 2;
 
 
     this.addPlayers = function(NewPlayers) {

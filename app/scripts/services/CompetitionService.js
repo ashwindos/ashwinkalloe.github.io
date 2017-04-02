@@ -27,7 +27,7 @@ app.service('CompetitionService', function() {
 
     }
 
-    var uid = (savedCompetitions !== null) ? savedCompetitions.length - 1 : 1;
+    var uid = (savedCompetitions !== null) ? savedCompetitions.length : 2;
 
 
     this.addCompetition = function(Newcompetition) {
